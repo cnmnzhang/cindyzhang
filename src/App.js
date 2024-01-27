@@ -3,7 +3,7 @@ import Intro from "./components/Intro";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import Projects from "./components/Projects";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import "./App.css";
 import "./styles/Global.css";
@@ -18,7 +18,7 @@ function App() {
         <About></About>
         <Experience></Experience>
         <Projects></Projects>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     </div>
   );

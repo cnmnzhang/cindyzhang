@@ -77,7 +77,7 @@ class Projects extends React.Component {
                   </div> */}
 
                   <div className="card-title">
-                    <a href={projects[key]["link"]} target="_blank" rel="noopener">{key}</a>
+                    <a href={projects[key]["link"]} target="_blank" rel="noreferrer">{key}</a>
                     </div>
                   <div className="card-desc">{projects[key]["desc"]}</div>
                   <div className="card-tech">{projects[key]["techStack"]}</div>

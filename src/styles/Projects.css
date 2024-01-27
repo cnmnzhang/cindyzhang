@@ -95,9 +95,11 @@ min-height: 50vh;
 }
 
 .carousel img {
-  object-fit: contain;
   height: 100%;
+  width: 100%;
   opacity: 0.8;
+  object-fit: scale-down;
+  object-position: center;
 }
 
 .carousel-caption {
