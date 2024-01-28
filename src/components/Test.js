@@ -20,7 +20,7 @@ class ThreeJSAnimation extends Component {
         15,
         window.innerWidth / window.innerHeight,
         0.01,
-        40
+        40,
       );
       camera.position.x = 0.4;
       camera.position.z = -2;
@@ -100,7 +100,7 @@ class ThreeJSAnimation extends Component {
     }
   }
   render() {
-    return <div ref={ref => (this.mount = ref)} />;
+    return <div ref={(ref) => (this.mount = ref)} />;
   }
 }
 export default ThreeJSAnimation;

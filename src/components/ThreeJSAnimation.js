@@ -8,7 +8,7 @@ class ThreeJSAnimation extends Component {
       70,
       window.innerWidth / window.innerHeight,
       0.1,
-      1000
+      1000,
     );
     var renderer = new THREE.WebGLRenderer({ alpha: true });
     renderer.setSize(0.4 * window.innerWidth, 0.4 * window.innerHeight);
@@ -30,7 +30,7 @@ class ThreeJSAnimation extends Component {
     animate();
   }
   render() {
-    return <div ref={ref => (this.mount = ref)} />;
+    return <div ref={(ref) => (this.mount = ref)} />;
   }
 }
 export default ThreeJSAnimation;
